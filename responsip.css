@@ -1,0 +1,5 @@
+@media screeen and (max-width:640px){
+    .headImg{
+        width: 50px;
+    }
+}

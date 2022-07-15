@@ -1,0 +1,118 @@
+/* Header Section Design Start Here */
+h1{
+    color: white;
+    text-align: center;
+    padding-top:10%;
+}
+/* 
+h2{
+    text-align: center;
+    padding: 3% 2%;
+    color: white;
+    cursor: pointer;
+    
+} */
+
+
+h4{
+    color: #FF3F33
+}
+/* 
+.title{
+    background-color: rgb(72, 72, 141);
+    width: 30%;
+    margin:0 auto;
+    border-radius: 20px;
+} */
+.header-section{
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    
+}
+.navbar ul li a:hover{
+    background-color: #87509c;
+    color: white;
+}
+
+span{
+    color:yellow;
+}
+.div2{
+    /* background-color: #06ae29; */
+    background-color: rgb(72, 72, 141);
+    height: 70vh;
+}
+.fristImg{
+    width: 80%;
+    margin: 10% 0;
+    background-image: linear-gradient(top,#4309091c 1px,#ffffff00 1px,#0000001a 100%);
+    box-shadow: 0 60px 12px -18px rgba(0, 0, 0, 0.1),0 60px 20px -12px rgba(0, 0, 0, 0.1);
+    animation: anime 1s infinite ease-in-out alternate;
+    -webkit-animation: anime 1s infinite ease-in-out alternate;
+}
+
+/* button .bappi */
+.fristImg{
+    animation-delay: .3s;
+}
+@keyframes anime{
+    100%{
+        transform: translate(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+        box-shadow: 0 40px 10px -18px rgba(0, 0, 0, 2),0 40px -12px rgba(0, 0, 0, 0.2);
+
+    }
+}
+/* Header Section Design End Here */
+
+/* Laptop Section Design Start Here */
+.laptop-col{
+    box-shadow: 0px 0px 1px 1px #888888;
+    border-radius: 5px;
+    padding: 2% 4%;
+}
+.laptop-col:hover{
+    border: 1px solid #ff02c0;
+
+}
+.laptop-img{
+    width: 300px;
+    height: auto;
+    padding: 15% 5%;
+}
+.mybtn{
+    padding-bottom: 8%;
+}
+.btn{
+    color: white;
+    text-align: center;
+    padding: 3% 10%;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: rgb(72, 72, 141);
+}
+.btn:hover{
+    text-decoration: underline;
+}
+
+/* fotter-section style stare here */
+.footer-section{
+    /* background-color: #2a2a37; */
+    background-color: rgba(0, 0, 0, 0.795);
+    color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5%; 
+    border-radius: 2px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+.footer-colam{
+    padding-top: 6%;
+}
+
+/* fotter-section style end here */
